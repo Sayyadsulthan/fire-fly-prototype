@@ -7,7 +7,7 @@ const Header = ({ isActive, handleVisibleCard }) => {
         <div
             className='header '
             style={{
-                backgroundImage: `url(${ProductImg || Frame6})`,
+                backgroundImage: `url(../assets/images/Frame 16.png)`,
                 filter: isActive && 'blur(5px)',
             }}
         >
